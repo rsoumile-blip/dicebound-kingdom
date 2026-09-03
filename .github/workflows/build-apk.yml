@@ -36,7 +36,8 @@ jobs:
       - name: Install python-for-android
         run: |
           python -m pip install --upgrade pip
-          pip install python-for-android==2025.1.12
+          pip install python-for-android==2026.5.9
+          pip install "Cython<3"
 
       - name: Build APK
         run: |
